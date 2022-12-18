@@ -1,24 +1,24 @@
-*{
-    box-sizing: border-box;
+* {
     margin: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
 }
 
-#heading{
+#heading {
     margin: 20px 0;
 }
 
-#countryInput{
+#countryInput {
     height: 30px;
     width: 300px;
     outline: none;
     padding: 10px;
 }
 
-#stateInput{
+#stateInput {
     margin: 10px 0;
     height: 30px;
     width: 300px;
@@ -26,7 +26,7 @@ body{
     padding: 10px;
 }
 
-#searchBtn{
+#searchBtn {
     padding: 8px 16px;
     background-color: #4197eb;
     color: white;
@@ -34,21 +34,19 @@ body{
     border-radius: 5px;
 }
 
-.card{
+.card {
     width: 230px;
     text-align: start;
 }
 
-.cards{
+.cards {
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 30px;
     column-gap: 60px;
 }
 
-.card p{
+.card p {
     margin: 10px 0;
 }
